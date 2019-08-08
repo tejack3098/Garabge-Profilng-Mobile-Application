@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbacck">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="104dp"
+        android:layout_height="154dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="Cityname"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/text1"
+        android:gravity="center_horizontal"
+        android:text="Dry and Wet Segregation"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <RatingBar
+        android:id="@+id/rater"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:isIndicator="true"
+        android:stepSize="0.1"
+        android:layout_below="@+id/text2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@+id/text1"
+        android:theme="@style/MyRatingBar"
+        android:numStars="5" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rater"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="11dp"
+        android:layout_toRightOf="@+id/text1"
+        android:gravity="center"
+        android:text="Plastic Content"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <RatingBar
+        android:id="@+id/rater2"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_below="@+id/text3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@+id/text1"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:theme="@style/MyRatingBar"
+        android:stepSize="0.1" />
+
+
+
+
+
+</RelativeLayout>

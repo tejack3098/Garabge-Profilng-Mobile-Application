@@ -1,0 +1,1 @@
+Dont forget to add your firebase json file and chage config credentials in __init__.py

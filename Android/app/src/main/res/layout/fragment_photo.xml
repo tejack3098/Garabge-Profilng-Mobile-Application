@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbacck"
+    tools:context=".signin.MainActivity$PlaceholderFragment">
+
+
+    <ImageButton
+        android:id="@+id/btnChoose"
+        android:layout_width="111dp"
+        android:layout_height="80dp"
+        android:text="Open Gallery"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="14sp"
+        android:textColor="@color/grey_300"
+        android:background="@color/colorPrimary2"
+        android:src="@drawable/outline_photo_library_black_36" />
+
+    <ImageButton
+        android:id="@+id/btnCamera"
+        android:layout_width="111dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="Open Camera"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="4dp"
+        android:background="@color/colorPrimary2"
+        android:textSize="14sp"
+        android:textColor="@color/grey_300"
+        android:layout_toRightOf="@+id/btnChoose"
+        android:src="@drawable/outline_photo_camera_black_36"/>
+    <ImageButton
+        android:id="@+id/btnUpload"
+        android:layout_width="111dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="Upload"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="8dp"
+        android:textSize="14sp"
+        android:textColor="@color/grey_300"
+        android:background="@color/colorPrimary2"
+        android:layout_toRightOf="@+id/btnCamera"
+        android:src="@drawable/outline_cloud_upload_black_36"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="349dp"
+        android:layout_height="29dp"
+        android:layout_below="@+id/btnChoose"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Cityname"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_below="@id/tv2"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+
+</RelativeLayout>

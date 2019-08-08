@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "537543340489",
+    "firebase_url": "https://getphoto-e95be.firebaseio.com",
+    "project_id": "getphoto-e95be",
+    "storage_bucket": "getphoto-e95be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537543340489:android:c5efe62a51c813c1",
+        "android_client_info": {
+          "package_name": "com.gpp.gpp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537543340489-m8huee98r2grvqqijnk8hficnkrg4nmt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gpp.gpp",
+            "certificate_hash": "e34ca5f5d86965a17a2ae7684bc38394d30262ab"
+          }
+        },
+        {
+          "client_id": "537543340489-hrfsv1jq6dge20d1jdsrb5d0vg3cjv1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUS-bQyry9skhFmODvp1BNsc08s5Q2_xQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537543340489-hrfsv1jq6dge20d1jdsrb5d0vg3cjv1u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "537543340489-feqe8bj5fotham4feh5j0g72vthpmhin.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gpp.gpp"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537543340489:android:06e7a1978989ea33",
+        "android_client_info": {
+          "package_name": "tejack.getphoto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537543340489-hrfsv1jq6dge20d1jdsrb5d0vg3cjv1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUS-bQyry9skhFmODvp1BNsc08s5Q2_xQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
