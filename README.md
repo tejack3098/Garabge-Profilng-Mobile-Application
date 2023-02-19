@@ -1,4 +1,4 @@
-# Garbage Profiling Application
+# Garbage Profiling Mobile Application
 
 ## Deep Blue Season 4, Mastek and Majesco
 ### Semifinalists, Best team award winner
